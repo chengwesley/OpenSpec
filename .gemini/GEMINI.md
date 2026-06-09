@@ -1,13 +1,17 @@
 # Gemini — OpenSpec
 
 ## 專案說明
-（請在此填寫這個專案的用途與目標）
+AI-native spec-driven 開發系統。讓 spec 成為軟體的唯一真相，驅動程式碼生成、測試與文件。
 
 ## Gemini 的職責範圍
-- （填寫 Gemini 負責的部分）
+- spec 的 review 與多角度分析
+- docs/ 文件撰寫與維護
+- schemas/ 的 JSON Schema 設計
+- 與外部工具整合的研究
 
 ## 禁區（不要動）
-- （填寫 Claude 或其他 AI 負責、Gemini 不應修改的部分）
+- src/ 核心邏輯（由 Claude 負責）
+- vitest 測試檔案
 
 ## 重要規則
 - Session 開始先讀 `AI_HANDOFF.md`
